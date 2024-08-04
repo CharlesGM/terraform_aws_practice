@@ -8,8 +8,10 @@
 # Ignore the Terraform lock file
 .terraform.lock.hcl
 
+
+*Add tfvars for test, normally I would git ignore this (depends on how sensitive)*
 # Ignore Terraform variable files
-terraform.tfvars
+# terraform.tfvars
 
 # Optional: Ignore local override files
 override.tf
